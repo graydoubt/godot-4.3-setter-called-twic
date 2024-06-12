@@ -4,5 +4,7 @@
 
 [node name="Main" type="Node"]
 
-[node name="UI" parent="." node_paths=PackedStringArray("my_button") instance=ExtResource("1_aniqm")]
+[node name="UI" parent="." node_paths=PackedStringArray("my_button", "my_label", "my_label2") instance=ExtResource("1_aniqm")]
 my_button = NodePath("Button")
+my_label = NodePath("Label")
+my_label2 = NodePath("Label2")

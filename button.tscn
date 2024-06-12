@@ -1,6 +1,11 @@
-[gd_scene format=3 uid="uid://bx2itg4chtaj"]
+[gd_scene load_steps=3 format=3 uid="uid://bx2itg4chtaj"]
+
+[ext_resource type="Script" path="res://button.gd" id="1_yg1qq"]
+[ext_resource type="Texture2D" uid="uid://1sy0rb4nw1mn" path="res://icon.svg" id="2_pytf8"]
 
 [node name="Button" type="Button"]
 offset_right = 8.0
 offset_bottom = 8.0
 text = "My Button"
+script = ExtResource("1_yg1qq")
+my_icon = ExtResource("2_pytf8")
